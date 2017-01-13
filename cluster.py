@@ -2,7 +2,7 @@
 #!/usr/bin/env python
 
 # Time-stamp: <2017-01-04 19:17:47 Wednesday by wls81>
-import sys
+
 import re
 import pickle
 import os 
@@ -12,7 +12,7 @@ import time
 import json
 from collections import defaultdict
 
-import requests
+
 import jieba
 import jieba.analyse
 
@@ -26,6 +26,7 @@ from Queue import Queue
 from parallel_download import ParallelDownload
 
 cluster_result = {}
+
 
 def get_bookmarks_from_export(bookmark_content):
     """

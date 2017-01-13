@@ -84,4 +84,3 @@ if __name__ == "__main__":
     while out_queue.qsize() > 0:
         item = out_queue.get()
         print out_queue.qsize()
-    
